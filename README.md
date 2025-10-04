@@ -23,10 +23,15 @@ Human wins: score + depth (lose in 5 moves = -5 > lose in 2 moves = -8)
 
 This simple heuristic works perfectly for Tic-Tac-Toe since the entire game tree can be explored.
 
-How to Run
+How to Run:
+Step 1)
+Download the file locally and run it on a software like vs code here are the pre-reqs
 Prerequisites: Python 
-Steps:
-bashpython tictactoe.py
+
+Step 2):- Open terminal and type python main.py
+
+
+
 Gameplay:
 
 Choose who goes first: h (human) or a (AI)
