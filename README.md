@@ -35,9 +35,8 @@ Coordinates: 0-2 for both row and column
 
 
 Alpha-Beta Pruning Analysis
-How it Works: Prunes branches where β ≤ α, eliminating moves the opponent would never allow.
-Performance Results:
-Game StageNodes ExploredNodes PrunedEfficiencyEmpty board5,47892614.5%Mid-game581217.1%Late-game7222.2%
+How it Works: Prunes branches where Beta ≤ Alpha, eliminating moves the opponent would never allow.
+
 Key Findings:
 
 ~98.5% reduction vs. brute force (362,880 max nodes)
